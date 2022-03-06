@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
+    <!-- <script src="https://kit.fontawesome.com/d7463dbfc4.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    راه اندازی اولیه
+    <main class="wrapper">
+        <header>Light Box Gallery</header>
+        <div class="gallery">
+            <div class="imgs"><img src="./img/1.jpg" alt="sorry...!"></div>
+            <div class="imgs"><img src="./img/2.jpg" alt="sorry...!"></div>
+            <div class="imgs"><img src="./img/3.jpg" alt="sorry...!"></div>
+            <div class="imgs"><img src="./img/4.jpg" alt="sorry...!"></div>
+            <div class="imgs"><img src="./img/5.jpg" alt="sorry...!"></div>
+            <div class="imgs"><img src="./img/6.jpg" alt="sorry...!"></div>
+        </div>
+    </main>
+    <div class="preview">
+        <header class="title">
+            <span>image <p class="currnt-img"> 3 </p> of <p class="total-img"> 6 </p></span>
+            <i class="fa-solid fa-xmark"></i>
+        </header>
+        <div class="pic">
+            <img class="preview-img" src="./img/6.jpg" alt="sorry...!">
+            <i class="fa-solid fa-angle-left left-arw"></i>
+            <i class="fa-solid fa-angle-right right-arw"></i>
+        </div>
+    </div>
+    <div class="dark"></div>
 </body>
 </html>
